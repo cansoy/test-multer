@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="./app1.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <hr>
+    <hr>
+    <p>Wellcome Home Page !</p>
+    <hr>
+    <hr>
+    <p>### form enctype:multipart/form-data ###</p>
+    <form action="/posted" method="post" enctype="multipart/form-data">
+        <p>name:</p>
+        <input type="text" name="name" value="muhammed"> 
+        <p>surname:</p>
+        <input type="text" name="surname" value="cansoy">
+        <p>city:</p>
+        <input type="text" name="city" value="ankara">
+        <p>mainland:</p>
+        <input type="text" name="mainland" value="antep">
+        <p>file:</p>
+        <input type="file" name="nameoffile" value="">
+        <br><br>
+        <button id="save-btn" type="submit">Save Me </button>
+    </form>
+    <hr>
+    <hr>
+    <a href="/get-all-db">Go to DB</a>
+</body>
+</html>
